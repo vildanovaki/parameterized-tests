@@ -11,7 +11,8 @@ public class CsvSourceTests {
 
     @CsvSource({
             "ivanovao, 123",
-            "simanovaa, 123"
+            "simanovaa, 123",
+            "efremovaa, 123",
     })
     @ParameterizedTest
     void negativeAuthForGitHubWithCsvSource(String login, String password) {

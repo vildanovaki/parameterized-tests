@@ -12,7 +12,8 @@ public class ValueSourceTests {
     @ValueSource(strings = {
             "Анна Каренина",
             "Война и мир",
-            "Отцы и дети"
+            "Отцы и дети",
+            "Муму"
     })
     @ParameterizedTest(name = "Check search results")
     void checkSearchResult(String search) {
